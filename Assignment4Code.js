@@ -1,8 +1,8 @@
 // ASIGNMENT #4 code
 
 //Author Info
-console.log("Prepared by: James Kehoe");
-console.log("Student Number: 000870105");
+console.log("Prepared by: James ");
+console.log("Student Number: ");
 console.log("Date Completed: 12-04-2021");
 
 //ASSIGNMENT CODE BEGINS HERE
