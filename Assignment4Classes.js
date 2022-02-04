@@ -1,8 +1,8 @@
 // ASSIGNMENT #4 - Class component
 
 //Author Info
-//Prepared by: James Kehoe
-//Student Number: 000870105
+//Prepared by: James 
+//Student Number: 
 //Date Completed: 12-04-2021
 
 //ASSIGNMENT CODE BEGINS HERE
