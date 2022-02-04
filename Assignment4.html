@@ -1,0 +1,52 @@
+<html>
+    <head>
+<title> Gotham Savings and Loan </title>
+<h1> Welcome to Gotham Savings and Loans </h1>
+</head>
+
+    <body>
+        <h2 id="paraName"></h2>
+
+        <h3 id="checkHeader">Checking Account</h3>                   
+        <div id="checkBalance"></div>
+        <p><button onclick="deposit()">Deposit</button><button onclick="withdraw()">Withdraw</button></p>
+        <p> <button id= "toSavingsButton" onclick="toSavings()">Send to Savings</button><button onclick="paylowCC()">Pay Low Interest Credit Card</button><button onclick="payhighCC()">Pay High Interest Credit Card</button></p>
+       
+       <hr>
+        <p><h3 id="savHeader"> Savings Account</h3></p>
+        <p id="savBalance"></p>
+        <p><button onclick="toChecking()">Transfer to Checking</button></p>
+        
+        <hr>
+        <p> <h3 id='lowccHeader'>Low Interest Credit Card</h3></p>
+        <p id="lowccBal"> </p>
+        <p id="lowIntRate"></p>
+        <p id="lowCCMax"> </p>
+        <p> <button onclick="ccLowToCash()">Withdraw Cash from Credit Card</button> </p>
+        <p> <button onclick="savingsToLowCC()">Pay down Credit Card from Savings Account</button><button onclick="paylowCC()">Pay down Credit Card from Checking Account</button></p>
+
+        <hr>
+        <p> <h3 id='ccHeader'>High Interest Credit Card</h3></p>
+        <p id="highccBal"> </p>
+        <p id="highIntRate"> </p>
+        <p id="highCCMax"> </p>
+        <p> <button onclick="ccHighToCash()">Withdraw Cash from Credit Card</button> </p>
+        <p> <button onclick="savingsToHighCC()">Pay down Credit Card from Savings Account</button><button onclick="payhighCC()">Pay down Credit Card from Checking Account</button></p>
+
+        <hr>
+        <p> <h3> Reciept</h3></p>
+        <button onclick="print()">Print Reciept</button>
+        <p><h4>Gotham  Savings and Loans</h4></p>
+        <div> <h5 id="recName"></h5></div>
+        <div> <h5 id="recNum"></h5></div>
+        <p> <h5 id="recDate"></h5></p>
+        <p> <h4>Transaction History</h4></p>
+        <p> <h5 id="recHistory"> </h5></p>
+
+
+        <script src="Assignment4Classes.js"> </script>
+        <script src="Assignment4Code.js"> </script>
+    </body>
+
+
+</html>
